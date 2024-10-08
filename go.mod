@@ -1,4 +1,4 @@
-module pkg/auth_v1
+module github.com/Avalance-rl/vieo/pkg/auth_v1
 
 go 1.22
 
