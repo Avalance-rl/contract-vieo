@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+package vieo_v1;
+
+option go_package = "";
