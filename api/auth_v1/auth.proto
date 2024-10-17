@@ -23,7 +23,7 @@ message RegisterResponse {
 message LoginRequest {
     string email = 1;
     string password = 2;
-    string device_address = 3;
+    string deviceAddress = 3;
 }
 
 message LoginResponse {
@@ -31,7 +31,7 @@ message LoginResponse {
 }
 
 message RefreshTokenRequest {
-    string device_address = 1;
+    string deviceAddress = 1;
 }
 
 message RefreshTokenResponse {
