@@ -9,6 +9,7 @@ service Auth {
     rpc Register (RegisterRequest) returns (RegisterResponse);
     rpc Login (LoginRequest) returns (LoginResponse);
     rpc RefreshToken (RefreshTokenRequest) returns (RefreshTokenResponse);
+    rpc CheckToken(CheckTokenRequest) returns (CheckTokenResponse);
 }
 
 message RegisterRequest {
@@ -37,4 +38,10 @@ message RefreshTokenRequest {
 
 message RefreshTokenResponse {
     string token = 1;
+}
+
+message CheckTokenRequest {}
+
+message CheckTokenResponse {
+  string message = 1;
 }
